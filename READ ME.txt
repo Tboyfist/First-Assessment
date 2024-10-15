@@ -1,0 +1,21 @@
+TASK B
+
+
+TITLE: -  Topic Modelling Starting with Manually Collected Dataset of Unstructured Text
+
+Description:
+
+Topic modeling has been a powerful tool in Natural Language Processing that is unsupervised Learning where a large amount of unstructured data needs to be analyzed to discover patterns, themes, and topics. This task is centered on training models that can generate topics after feeding the model with the dataset.
+
+DATASET
+The dataset was scraped from scopus with a keyword Weather. The dataset was scraped form different article, some column on the dataset that is not needed to train the models was dropped cleaning was initiated.
+The dataset is saved in my github repository. 
+The command to mount the dataset is included in the notebook.
+Also, the dataset is also attached in the zipped file and the command to call the dataset from the local machine is also added.
+
+IMPLEMENTTATION
+The implementation of the task was inititaed on Google colab and linux  and two models is trained with the dataset. The models includes;LDA(Latent Dirichlet Allocation) and BERTopic. 
+The screenshot of the result are shown in the report.
+
+RESULT:
+The result shows the different topics that was gotten from the dataset
